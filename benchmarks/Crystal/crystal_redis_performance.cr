@@ -1,6 +1,6 @@
 require "redis"
 
-N = 1_000_000
+N = 10_000_000
 
 redis = Redis.new
 redis.pipelined do |pipeline|

@@ -5,7 +5,7 @@ import (
 	"github.com/garyburd/redigo/redis"
 )
 
-const N = 1000000
+const N = 10000000
 
 func main() {
 	c, err := redis.Dial("tcp", ":6379")

@@ -21,12 +21,14 @@ $ sudo apt-get install libhiredis0.10 libhiredis-dev
 ```
 $ gcc -Wall -std=c99 -O2 c_hiredis_performance.c -lhiredis -o c_hiredis_performance
 ```
-
+```
+$ gcc -Wall -std=c99 -O2 c_hiredis_performance.c -I/opt/homebrew/opt/hiredis/include -L/opt/homebrew/opt/hiredis/lib -lhiredis -o c_hiredis_performance
+```
 
 ## Run
 
 ```
-$ time ./c_hiredis_performance
+$ /usr/bin/time -h ./c_hiredis_performance
 ```
 
 
@@ -38,10 +40,11 @@ Connecting...
 Connected!
 Done
 
-real  0m2.959s
-user  0m1.831s
-sys 0m0.034s
+No. set_commands = 10.000.000
+
+10.59s real
+5.81s user
+0.19s sys
+
+10.000.000 / 10.59 => 944.000 cps
 ```
-
-=> 338,000 cps
-

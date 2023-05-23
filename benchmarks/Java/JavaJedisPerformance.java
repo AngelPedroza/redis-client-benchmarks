@@ -9,7 +9,7 @@ import redis.clients.util.SafeEncoder;
 import java.util.List;
 
 public class JavaJedisPerformance {
-  public static final int N = 1000000;
+  public static final int N = 10000000;
 
   public static void main(String[] args) {
     long startTime = System.currentTimeMillis();

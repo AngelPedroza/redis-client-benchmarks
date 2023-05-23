@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "plot-benchmarks-results"
+version = "0.1.0"
+description = "Test at python redis performance for redis"
+authors = ["AngelPedroza <angelomarpedrozacardenas@gmail.com>"]
+readme = "README.md"
+packages = [{include = "benchmark_redis"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.1"
+matplotlib = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

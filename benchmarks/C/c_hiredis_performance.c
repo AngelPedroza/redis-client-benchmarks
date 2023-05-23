@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <hiredis/hiredis.h>
 
-const int N = 1000000;
+const int N = 10000000;
 
 int main () {
   printf("Connecting...\n");

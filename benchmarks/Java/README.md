@@ -1,5 +1,8 @@
 # Java with Jedis
 
+Java(TM) SE Runtime Environment (build 20.0.1+9-29)
+Java HotSpot(TM) 64-Bit Server VM (build 20.0.1+9-29, mixed mode, sharing)
+
 ## Install
 
 This code needs the [Jedis](https://github.com/xetorthio/jedis) client library.
@@ -7,10 +10,10 @@ This code needs the [Jedis](https://github.com/xetorthio/jedis) client library.
 On MacOs X, install via
 
 ```
-$ wget https://github.com/xetorthio/jedis/archive/jedis-2.7.2.tar.gz
-$ tar xvzf jedis-2.7.2.tar.gz
-$ cd jedis-jedis-2.7.2
-$ mvn compile
+$ wget https://github.com/xetorthio/jedis/archive/jedis-3.6.0.tar.gz
+$ tar xvzf jedis-3.6.0.tar.gz
+$ cd jedis-jedis-3.6.0
+$ mvn install (read pom.xml)
 $ cd ..
 ```
 

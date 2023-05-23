@@ -7,7 +7,7 @@ The Node.js benchmark derives from the others because I could only run 100,000 c
 
 ## Runtime: Node.js vs io.js
 
-I tried both Node.js 0.12.2 and io.js 2.0.1.
+I tried both Node.js 18.16.0
 
 
 ## Install
